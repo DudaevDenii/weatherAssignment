@@ -1,8 +1,8 @@
 <template>
   <div>
     <div v-if="props.weather">
-      <div class="weatherValues">
-        <ul class="weatherValues">
+      <div>
+        <ul>
           <li
             v-for="(_, index) in props.weather.hourly.time"
             :key="props.weather.hourly.time[index]"
